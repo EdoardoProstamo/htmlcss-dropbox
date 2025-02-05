@@ -56,12 +56,13 @@ main .color {
 }
 
 .section .one {
-    height: 500px;
+    height: 530px;
     border: 2px dashed black;
+    position: relative;
 }
 
 .section .one  > .first-text {
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -75,4 +76,16 @@ main .color {
     font-size: 60px;
      border: 2px dashed black;
      flex-shrink: 0;
+}
+
+.fa-arrow-down {
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+.jumbotron {
+    width: 70%;
+    position: absolute;
+    top: 230px;
+    left: 330px;
 }
