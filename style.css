@@ -148,4 +148,15 @@ hr {
 }
 /* /Sezione 3 */
 
+/* Sezione 4 */
+.large {
+    height: 400px;
+}
+.bord {
+    border: 2px dashed black;
+}
+
+/* /Sezione 4 */
+
+
 
