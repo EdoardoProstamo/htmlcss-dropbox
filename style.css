@@ -95,14 +95,25 @@ hr {
     padding-top: 100px;
 }
 /* Sezione 2 */
+.section-two {
+    padding-top: 40px;
+}
 
-
-
-
-
-
-
-
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 31.5px;
+    padding-top: 20px;
+}
+.box-content {
+    height: 800px;
+    width: calc(93%/ 3 );
+    border: 1px solid;
+}
+.box .orizzontal {
+    width: 100%;
+    height: 210px;
+}
 
 /* /Sezione 2 */
 
