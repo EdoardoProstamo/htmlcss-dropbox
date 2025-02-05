@@ -8,6 +8,10 @@
 
 
 /* HEADER */
+header {
+    box-shadow: 0px 1px 3px #d1dae1;
+}
+
 .container {
     border: 2px dashed black;
     padding: 20px 20px;
@@ -38,4 +42,10 @@ header .dx {
 #Start {
     background-color: #0061fe;
     color: #ffffff;
+}
+
+/* MAIN */
+
+main > div {
+    padding: 0px 300px;
 }
