@@ -102,7 +102,7 @@ main .color {
 }
 /* /Sezione 1 */
 
-hr {
+.linea-divisoria {
     padding-top: 100px;
 }
 
@@ -134,12 +134,10 @@ hr {
     font-size: smaller;
 }
 .mini-corpo {
-    padding: 20px 20px;
+    padding: 20px 30px 50px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-
-    
+    gap: 30px;  
 }
 .mini-corpo .Price {
     display: flex;
@@ -150,6 +148,17 @@ hr {
     color: #6c6c6a;
 }
 
+.fa-check {
+    color: #0066ff;
+}
+.checked-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.checked-elements > div {
+    font-size: smaller
+}
 /* /Sezione 2 */
 
 /* Sezione 3 */
