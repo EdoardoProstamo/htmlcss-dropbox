@@ -206,12 +206,17 @@ main .color {
 
 /* Sezione 4 */
 .large {
-    height: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .bord {
     border: 2px dashed black;
 }
-
+.Img {
+    width: 100%;
+}
 /* /Sezione 4 */
 
 /* Sezione 5 */
