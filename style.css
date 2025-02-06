@@ -92,10 +92,10 @@ main .color {
 }
 
 .jumbotron {
-    width: 70%;
+    width: 65%;
     position: absolute;
-    top: 230px;
-    left: 330px;
+    top: 225px;
+    left: 370px;
 }
 /* /Sezione 1 */
 hr {
