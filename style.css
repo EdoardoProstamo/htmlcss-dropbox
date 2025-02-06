@@ -159,8 +159,14 @@ hr {
 /* /Sezione 4 */
 
 /* Sezione 5 */
+.section-five {
+    padding-top: 150px;
+}
 
-
+.team > div {
+    padding-bottom: 40px;
+    font-size: x-large;
+}
 /* /Sezione 5 */
 
 
