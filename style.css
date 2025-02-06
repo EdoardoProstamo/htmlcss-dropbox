@@ -12,14 +12,12 @@ header {
 }
 
 header > .container {
-    border: 2px dashed black;
     padding: 20px 20px;
     display: flex;
    justify-content: space-between;
 }
 
 .nav {
-    border: 2px dashed black;
     display: flex;
     gap: 20px;
     width: 500px;
@@ -68,7 +66,6 @@ main .color {
 
 .section .one {
     height: 530px;
-    border: 2px dashed black;
     position: relative;
 }
 
@@ -79,13 +76,11 @@ main .color {
     align-items: flex-start;
     gap: 20px;
     padding-top: 50px;
-    border: 2px dashed black;
 }
 
 .color .one > h1 {
     height: 33%;
     font-size: 60px;
-     border: 2px dashed black;
      flex-shrink: 0;
 }
 
@@ -175,7 +170,6 @@ main .color {
 
 /* Sezione 3 */
 .section-three {
-    border: 2px dashed black;
     height: 600px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -183,7 +177,6 @@ main .color {
 .container.two {
     height: 400px;
     display: flex;
-    border: 2px dashed black;
     gap: 40px;
 }
 #partner-img {
@@ -211,11 +204,11 @@ main .color {
     flex-direction: column;
     gap: 20px;
 }
-.bord {
-    border: 2px dashed black;
-}
 .Img {
     width: 100%;
+}
+.no-border {
+    border: 0;
 }
 /* /Sezione 4 */
 
@@ -248,7 +241,6 @@ footer {
 .final {
     height: 220px;
     width: calc( 100% / 6 );
-    border: 2px dashed red;
     color: #ffffff;
 }
 
@@ -257,7 +249,6 @@ footer {
 }
 .final ul > li {
     padding-bottom: 10px;
-    border: 1px solid red;
 }
 .final ul li > a {
     text-decoration: none;
