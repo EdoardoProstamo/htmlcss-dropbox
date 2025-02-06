@@ -57,7 +57,7 @@ main > div {
 }
 
 .section.color {
-    padding: 0px 250px;
+    padding: 0px 250px; 
 }
 
 main .color {
@@ -82,6 +82,7 @@ main .color {
     height: 33%;
     font-size: 60px;
      flex-shrink: 0;
+     padding-top: 20px;
 }
 
 .fa-arrow-down {
@@ -97,13 +98,9 @@ main .color {
 }
 /* /Sezione 1 */
 
-.linea-divisoria {
-    padding-top: 100px;
-}
-
 /* Sezione 2 */
 .section-two {
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 .box {
@@ -235,7 +232,7 @@ footer {
 .credits {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 80px;
+    padding: 80px 0px 50px;
     gap: 42px;
 }
 .final {
@@ -259,11 +256,14 @@ footer {
     padding-bottom: 20px;
 }
 /* /Parte-1 */
-
+hr {
+    color: #ffffff;
+    width: 10%;
+}
 /* Parte-2 */
 #Ita {
     color: #86947d;
-    padding-top: 120px;
+    padding-top: 50px;
     font-size: small;
     display: flex;
     gap: 10px;
