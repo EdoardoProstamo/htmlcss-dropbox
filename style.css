@@ -52,6 +52,10 @@ main > div {
     padding: 0px 300px;
 }
 
+.section.color {
+    padding: 0px 250px;
+}
+
 main .color {
     background-color: #b4d0e6;
 }
@@ -161,6 +165,7 @@ hr {
 /* Sezione 5 */
 .section-five {
     padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .team > div {
@@ -168,6 +173,23 @@ hr {
     font-size: x-large;
 }
 /* /Sezione 5 */
+
+/* FOOTER */
+footer {
+    height: 350px;
+    background-color: #000000;
+}
+
+.credits {
+    height: 100px;
+}
+.final {
+    width: calc( 100% / 6 );
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed red;
+}
+
 
 
 
