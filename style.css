@@ -30,21 +30,24 @@ header > .container {
 .container a {
     text-decoration: none;
     color: #000000;
+    padding-bottom: 10px;
 }
-.container a:hover {
-    text-decoration: underline;
+
+.container .border-link:hover {
+    border-bottom: 2px solid black;
 }
 
 header .dx {
     justify-content: right;
 }
 
-.container .Start {
+.container .button.blue {
     background-color: #0061fe;
     color: #ffffff;
-    padding: 3px 7px;
 }
-
+.container .button.blue:hover {
+    filter: brightness(1.4);
+}
 /* MAIN */
 
 /* Sezione 1 */
