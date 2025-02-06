@@ -181,7 +181,7 @@ hr {
 
 /* Parte-1 */
 footer {
-    height: 350px;
+    height: 500px;
     background-color: #000000;
 }
 
@@ -214,6 +214,21 @@ footer {
     padding-bottom: 20px;
 }
 /* /Parte-1 */
+
+/* Parte-2 */
+#Ita {
+    color: #86947d;
+    padding-top: 120px;
+    font-size: small;
+    display: flex;
+    gap: 10px;
+}
+#Ita :first-child {
+    padding-top: 4px;
+}
+/* /Parte-2 */
+
+
 
 
 
